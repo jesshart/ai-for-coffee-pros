@@ -2,26 +2,31 @@
 Install the claude code harness and run an Anthropic model from the terminal.
 Also, install tools that will enable me for future experimentation.
 
+> If you would like access to the walkthrough video, reach out to Jesse.
+
 # Step 1: Basic Setup
 1. Open terminal
-2. type `pwd` should be something like `/Users/<your_name>`
+2. Type `pwd` — should be something like `/Users/<your_name>`
 3. Type in `mkdir Repos` then hit enter key
 4. Type in `cd Repos` then hit enter key
-5. Type in `mkdir Repos` and you should see something like `/Users/<your_name>/Repos`
-6. Type in `mkdir personal`
-7. Type in `cd personal`
+5. Type in `pwd` and you should see something like `/Users/<your_name>/Repos`
+6. Type in `mkdir personal` then hit enter key
+7. Type in `cd personal` then hit enter key
 
 # Step 2: Install Tools
-## 2.1: Install uv
+
+> Links to each tool below live in the project's [Recommended Tooling](../README.md#recommended-tooling) table — open it in a second tab so you can click through as you go.
+
+**2.1: Install uv**
 1. Go to uv website and follow instructions for your system (e.g., Mac diff from Windows)
 2. This likely involves a `curl` command that you copy paste into your terminal and hit enter
 
-## 2.2: Install claude
+**2.2: Install claude**
 1. Go to claude website and sign up for a free trial of claude pro
 2. Follow instructions to download (should be similar curl command to install)
 3. This likely involves a `curl` command that you copy paste into your terminal and hit enter
 
-## 2.3: Install VS Code
+**2.3: Install VS Code**
 1. Go to VS Code website and install for your machine
 2. Open VS Code
 3. Enable the "shell" command
